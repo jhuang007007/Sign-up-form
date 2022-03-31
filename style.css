@@ -87,6 +87,11 @@ input:invalid, input:out-of-range {
   border: 1px solid red;
 }
 
+.error-message {
+  color: red;
+  font-size: smaller;
+}
+
 input[type="submit"] {
   background-color: #ffcb77;
   font-weight: 900;
@@ -105,3 +110,4 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
   background-color: #FFAC26;
 }
+
