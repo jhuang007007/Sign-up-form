@@ -1,0 +1,107 @@
+:root {
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f9fa;
+}
+
+.card-container {
+  position: relative;
+  width: 50%;
+  height: 0;
+  background-color: red;
+}
+
+.card-image {
+  position: absolute;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+  text-align: center;
+}
+
+.card-image-credit {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 95vh;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+section {
+  margin-left: 50%;
+}
+
+.top {
+  padding: 15vh 2vw 5vh 2vw;
+}
+
+.middle {
+  padding: 1vh 2vw 2vh 2vw;
+  background-color: white;
+  border: solid white 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 5px;
+}
+
+.middle-left {
+  height: 0;
+  width: 100%;
+}
+
+.middle-right {
+  margin-left: 50%;
+}
+
+.bottom {
+  padding: 5vh 2vw 2vh 2vw;
+}
+
+input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin: 4px 0;
+}
+
+input:invalid, input:out-of-range {
+  border: 1px solid red;
+}
+
+input[type="submit"] {
+  background-color: #ffcb77;
+  font-weight: 900;
+  padding: 12px 50px;
+  margin-bottom: 50px;
+}
+
+#login {
+  color: black;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFC05B;
+}
+
+input[type="submit"]:active {
+  background-color: #FFAC26;
+}

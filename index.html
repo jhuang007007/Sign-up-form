@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div class="card-container">
+    <img class="card-image" src="raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="cat with sunglasses">
+    <div class="card-body">
+      <div class="card-heading">CAT ฅ^•ﻌ•^ฅ ⌐■-■ SUNGLASSES</div>
+    </div>
+    <div class="card-image-credit">Photo by 
+      <a href="https://unsplash.com/@raouldroog">Raoul Droog</a>
+      on
+      <a href="https://unsplash.com">Unsplash</a>
+    </div>
+  </div>
+  <form class="right-side">
+    <section class="top">
+      This is not a real online service! You know you want the freshest sunglasses for your cats. Sign up <em>now</em> to get started.
+    </section>
+    <section class="middle">
+        <div class="middle-left">
+          <label for="fname">FIRST NAME</label>
+          <input type="text" id="fname" name="fname" required>
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" required placeholder="myemail@example.com">
+          <label for="password">PASSWORD</label>
+          <input class="error" type="password" id="password" name="password" required>
+        </div>
+        <div class="middle-right">
+          <label for="lname">LAST NAME</label>
+          <input type="text" id="lname" name="lname" required>
+          <label for="phone-number">PHONE NUMBER</label>
+          <input type="tel" id="tel" name="tel" optional>
+          <label for="confirm-password">CONFIRM PASSWORD</label>
+          <input class="error" type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+    </section>
+    <section class="bottom">
+      <input type="submit" value="Create Account">
+      <div>
+        already have an account? <a id="login" href="">log in</a>
+      </div>
+    </section>
+  </form>
+</body>
+</html>
